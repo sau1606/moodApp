@@ -1,10 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import LandingPage from './components/LandingPage';
-import SignupPage from './components/SignupPage';
-import LoginPage from './components/LoginPage';
-import MoodCheckInPage from './components/MoodCheckInPage';
-import './index.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import LandingPage from '../components/LandingPage';
+import SignupPage from '../components/SignupPage';
+import LoginPage from '../components/LoginPage';
+import MoodCheckInPage from '../components/MoodCheckInPage';
 
 const App = () => {
   return (
